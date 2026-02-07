@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flexbox</title>
+
+    <style>
+        .sub {
+            height:490px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* justify-content: space-between;  */
+            align-items:center;
+            align-items:stretch;
+            flex-wrap: wrap;
+
+        }
+
+        
+
+        .itm{ 
+            background-color: tomato;
+            border: 2px solid red;
+            margin: 2px;
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h2>Practecing Flex</h2>
+<div class="sub">
+    <div class="itm" id="itm1">First box</div>
+    <div class="itm" id="itm2">Second box</div>
+    <div class="itm" id="itm3">Third box</div>
+    <div class="itm" id="itm4">Fourth box</div>
+    <div class="itm" id="itm5">Fifth box</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?size=626&ext=jpg&ga=GA1.2.1224654035.1650088823);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .left {
+            padding: 0px;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            position: absolute;
+            left: 8px;
+            top: 3px;
+        }
+
+        .mid {
+            padding: 0px;
+            width: 730px;
+            display: inline-block;
+            position: absolute;
+            left: 248px;
+            top: 0px;
+            margin: 0px;
+        }
+
+        .mid li a {
+            display: inline-block;
+            margin-left: 35px;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            /* width: 1200; */
+        }
+
+        .ul a:hover {
+            text-decoration: 3px underline;
+            color: white;
+        }
+
+        .mid li {
+            display: inline-block;
+            margin: 0px;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            padding: 0px;
+            width: 190px;
+            float: right;
+            margin-top: 5px;
+        }
+
+        img {
+            width: 140px; position: absolute;
+
+        }
+
+        .b {
+            border: 3px solid rgb(154 155 153);
+            border-radius: 2px;
+            padding: 5px 20px;
+            margin: 0px 3px ;
+        }
+        b :hover{cursor: pointer;}
+        .form{
+            display: inline-block;
+            padding: 44px;
+            position: absolute;
+            left: 100px;
+            top: 182px;
+            text-align: center;
+            width: 448px;
+        }
+        input{margin: 13px;
+        font-size: 34px;}
+        .btns{
+            
+            position: absolute;
+            left: 34px;
+        }
+        .btnr{
+            position: absolute;
+            left: 134px;
+}
+.btn{
+    font-size: 26px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    border-radius: 15px;
+    text-align: center;
+}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="sub">
+            <div class="left"><img src="sharukh.png" alt=""></div>
+            <div class="mid">
+                <ul class="ul">
+                    <li><a href="#"><b>Home</b></a></li>
+                    <li><a href="#"><b>Product</b></a></li>
+                    <li><a href="#"><b>Refurbished</b></a></li>
+                    <li><a href="#"><b>Customer Care</b> </a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="b">call us</button>
+                <button class="b">chat us</button>
+            </div>
+    </header>
+<form class="form" action="php.backend">
+<div class="ft"><input type="text"placeholder="Your Name"></div>
+<div class="ft"><input type="text"placeholder="Your E-Mail"></div>
+<div class="ft"><input type="number"placeholder="Phone Number"></div>
+
+<button class="btn" id="btns" >Buy Now</button>
+<button class="btn" id="btnr">Cofirm Product</button>
+
+</form>
+</body>
+</html>
